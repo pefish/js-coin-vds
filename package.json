@@ -1,6 +1,6 @@
 {
   "name": "js-coin-vds",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "vds tool of js",
   "keywords": [
     "common",
@@ -35,7 +35,7 @@
   "dependencies": {
     "btc-bitcoinjs-lib": "^5.0.8",
     "js-btc": "^0.2.9",
-    "js-node-assist": "^0.5.7",
+    "js-node-assist": "^0.5.8",
     "p-js-error": "^0.0.4"
   }
 }

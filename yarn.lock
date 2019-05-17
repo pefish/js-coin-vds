@@ -615,10 +615,19 @@ js-btc@^0.2.9:
     p-js-error "^0.0.4"
     p-js-utils "^0.0.8"
 
-js-node-assist@^0.5.6, js-node-assist@^0.5.7:
+js-node-assist@^0.5.6:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/js-node-assist/-/js-node-assist-0.5.7.tgz#4dd6f6d0d86b257b7f415992cbe7c75161fadeb1"
   integrity sha512-8zAIMXgk3BEbCElsyOvithj70vrR6MHIRMs2L2xmi7AYSuXvQV8KxOUgRCjr6KCet6JAWHymJLkSapoPcA1nQg==
+  dependencies:
+    bignumber.js "^8.1.1"
+    p-js-assert "^0.0.1"
+    p-js-error "^0.0.4"
+
+js-node-assist@^0.5.8:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/js-node-assist/-/js-node-assist-0.5.8.tgz#02f8a5d9d541eb4f4cc3edfc783af65e219a393d"
+  integrity sha512-zzaMQ8r3XnVFY8KvKgdXaHhRqm1rDJizdlE04Zktay58ObmiNNmUqCBSPSlABlQTiyza5wpSNIFHQLQqHrwl0g==
   dependencies:
     bignumber.js "^8.1.1"
     p-js-assert "^0.0.1"

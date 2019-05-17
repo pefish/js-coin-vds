@@ -1,3 +1,4 @@
+import 'js-node-assist'
 import BaseWalletHelper from 'js-btc/lib/base/base_bitcoinjs_lib'
 import ErrorHelper from 'p-js-error'
 
