@@ -20,7 +20,7 @@ export default class Wallet extends BaseWalletHelper {
 
   parseNetwork (network): object {
     if (network === `mainnet`) {
-      return this.bitcoinLib.networks[`bitcoin`]
+      return this.bitcoinLib.networks[`vds`]
     } else {
       throw new ErrorHelper(`network error`)
     }
