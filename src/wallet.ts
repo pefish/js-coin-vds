@@ -1,5 +1,5 @@
 import 'js-node-assist'
-import BaseWalletHelper from 'js-btc/lib/base/base_bitcoinjs_lib'
+import BaseWalletHelper from '@pefish/js-coin-btc/lib/base/base_bitcoinjs_lib'
 import ErrorHelper from 'p-js-error'
 
 declare global {
@@ -16,7 +16,7 @@ export default class Wallet extends BaseWalletHelper {
 
   public constructor () {
     super()
-    this.bitcoinLib = require('btc-bitcoinjs-lib')
+    this.bitcoinLib = require('@pefish/bitcoinjs-lib')
   }
 
   parseNetwork (network): object {

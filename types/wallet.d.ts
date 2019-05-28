@@ -1,5 +1,5 @@
 import 'js-node-assist';
-import BaseWalletHelper from 'js-btc/lib/base/base_bitcoinjs_lib';
+import BaseWalletHelper from '@pefish/js-coin-btc/lib/base/base_bitcoinjs_lib';
 declare global {
     namespace NodeJS {
         interface Global {
