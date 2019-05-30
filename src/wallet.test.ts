@@ -1,4 +1,4 @@
-import 'js-node-assist'
+import '@pefish/js-node-assist'
 import BitcoinWalletHelper from './wallet'
 import assert from 'assert'
 
@@ -17,6 +17,18 @@ describe('bitcoinWalletHelper', () => {
 
   before(async () => {
     walletHelper = new BitcoinWalletHelper()
+  })
+
+  it('isAddress', async () => {
+    try {
+      const result = walletHelper.isAddress('VcjXM5RuU4yugXckwXMhFHXF3Pm2ZTVqPgh', mainnet)
+      global.logger.error(result)
+      // assert.strictEqual(result['publicKey'], '0339c1597380ad680f5429e12d4b211d06dcdbd6f435ee1c14e48e326173edec59')
+      // assert.strictEqual(result['privateKey'], '3df937ffe797c9d346f67d29dd6e939987511700ea37df8c7b834074720c7082')
+    } catch (err) {
+      global.logger.error(err)
+      assert.throws(() => {}, err)
+    }
   })
 
   it('getAllFromWif', async () => {

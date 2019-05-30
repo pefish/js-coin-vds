@@ -1,6 +1,6 @@
 {
   "name": "@pefish/js-coin-vds",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vds tool of js",
   "keywords": [
     "common",
@@ -36,7 +36,7 @@
   "dependencies": {
     "@pefish/bitcoinjs-lib": "^5.2.0",
     "@pefish/js-coin-btc": "^0.3.0",
-    "js-node-assist": "^0.5.8",
-    "p-js-error": "^0.0.4"
+    "@pefish/js-error": "^0.0.5",
+    "@pefish/js-node-assist": "^0.6.0"
   }
 }
