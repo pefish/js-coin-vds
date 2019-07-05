@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@pefish/bitcoinjs-lib": "^5.2.0",
-    "@pefish/js-coin-btc": "^0.3.0",
+    "@pefish/js-coin-btc": "^0.3.3",
     "@pefish/js-error": "^0.0.5",
     "@pefish/js-node-assist": "^0.6.0"
   }
